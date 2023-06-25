@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/index.css" />
+  </head>
+  <body>
+    <div class="left-nav-bar">
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#information">Information</a>
+        </li>
+        <li>
+          <a href="#guide">Guide</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sectionsforallitem">
+      <div class="content" id="home">
+        <header>
+          <h1>Welcome to My Home Page</h1>
+        </header>
+
+        <div class="container">
+          <section class="home-section">
+            <h2>About Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum malesuada efficitur nisl a auctor. Integer dictum enim
+              a magna ultrices tincidunt. Vestibulum fermentum lobortis lectus
+              vitae pulvinar. Curabitur sagittis ultrices sapien, vitae
+              fermentum mauris tincidunt a. Fusce semper diam sed ante dictum,
+              eu ullamcorper odio blandit. Duis scelerisque neque nec iaculis
+              tempor. Mauris nec nisl non tellus condimentum semper. Suspendisse
+              potenti. Sed maximus risus ac odio commodo, id dapibus nisi
+              congue.
+            </p>
+          </section>
+
+          <section class="home-section">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </section>
+
+          <section class="home-section">
+            <h2>Contact</h2>
+            <p>Email: example@example.com</p>
+            <p>Phone: 123-456-7890</p>
+          </section>
+        </div>
+      </div>
+      <div class="content" id="contact">
+        <header>
+          <h1>Contact Me</h1>
+        </header>
+
+        <div class="container">
+          <section class="contact-section">
+            <h2>Get in touch</h2>
+            <p>Fill out the form below to send me a message.</p>
+
+            <form class="contact-form" action="#" method="post">
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div>
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <div>
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+      <div class="content" id="information">
+        <header>
+          <h1>Information Page</h1>
+        </header>
+
+        <div class="container">
+          <section class="info-section">
+            <h2>Company Information</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              ultrices neque eu enim finibus, at faucibus tellus suscipit.
+              Aliquam tristique justo risus, sed lacinia lacus bibendum sit
+              amet. Morbi egestas dui ut est facilisis dapibus.
+            </p>
+
+            <ul>
+              <li>Location: 123 Main Street, City, Country</li>
+              <li>Phone: 123-456-7890</li>
+              <li>Email: info@example.com</li>
+            </ul>
+          </section>
+
+          <section class="info-section">
+            <h2>Team Members</h2>
+            <ul>
+              <li>John Doe - CEO</li>
+              <li>Jane Smith - CTO</li>
+              <li>Michael Johnson - CFO</li>
+            </ul>
+          </section>
+
+          <section class="info-section">
+            <h2>History</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              ultrices neque eu enim finibus, at faucibus tellus suscipit.
+              Aliquam tristique justo risus, sed lacinia lacus bibendum sit
+              amet. Morbi egestas dui ut est facilisis dapibus.
+            </p>
+          </section>
+        </div>
+      </div>
+      <div class="content" id="guide">
+        <header>
+          <h1>Guide Page</h1>
+        </header>
+
+        <div class="container">
+          <section class="guide-section">
+            <h2>Getting Started</h2>
+            <p>
+              Welcome to the guide page! Here are some steps to get started:
+            </p>
+
+            <ol>
+              <li>Create a new account</li>
+              <li>Complete the profile setup</li>
+              <li>Explore the features</li>
+            </ol>
+          </section>
+
+          <section class="guide-section">
+            <h2>Tips and Tricks</h2>
+            <ul>
+              <li>Use keyboard shortcuts for quick navigation</li>
+              <li>Customize your settings to suit your preferences</li>
+              <li>Take advantage of the search functionality</li>
+            </ul>
+          </section>
+
+          <section class="guide-section">
+            <h2>Important Notes</h2>
+            <blockquote>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              ultrices neque eu enim finibus, at faucibus tellus suscipit.
+              Aliquam tristique justo risus, sed lacinia lacus bibendum sit
+              amet. Morbi egestas dui ut est facilisis dapibus.
+            </blockquote>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
